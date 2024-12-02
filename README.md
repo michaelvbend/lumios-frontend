@@ -1,7 +1,10 @@
 # Lumios
 
-![Scan book functionality](./assets/Book-scan.mp4)
+![Lumios logo](./assets/logo-side.png)
 
+<p align="center">
+  <img src="./assets/book-scan.gif" alt="Scan book functionality" width="400"/>
+</p>
 ## Overview
 
 This is a **React Native application** that allows users to:
