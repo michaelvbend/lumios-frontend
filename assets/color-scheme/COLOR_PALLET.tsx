@@ -1,0 +1,17 @@
+export interface Colors {
+  [colorName: string]: string;
+}
+export const colors: Colors = {
+  PRIMARY_COLOR_GREEN: '#0ea47a',
+  PRIMARY_COLOR_GREEN_LIGHT: '#12d39d',
+  PRIMARY_COLOR_GREEN_DARK: '#0a7557',
+  PRIMARY_COLOR_GREEN_ULTRA_LIGHT: '#2bedb7',
+  SECONDARY_COLOR_GREEN_DARK: '#2F4858',
+  SECONDARY_COLOR_BLUE_DARK: '#0062C5',
+  SECONDARY_COLOR_GREY_DARK: '#667799',
+  ERROR_COLOR: '#B22222', // Firebrick red
+  THEME_GREY: '#888888',
+  INPUT_GREY: '#F5F5F5',
+  TEXT_COLOR: '#3B3B3B',
+  THEME_WHITE: '#ffffff',
+};

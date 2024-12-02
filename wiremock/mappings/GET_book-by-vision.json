@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/books/by-vision",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "books": [
+        {
+          "id": "1",
+          "title": "Het Gouden Ei",
+          "thumbnail": "https://www.leesadviezen.nl/content/boeken/1143_het-gouden-ei.jpg",
+          "author": "John Krabbe"
+        }
+      ]
+    }
+  }
+}

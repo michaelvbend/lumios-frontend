@@ -1,0 +1,19 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "POST",
+        "url": "/api/v1/auth/authenticate",
+        "bodyPatterns": [
+          {
+            "equalToJson": "{\"email\":\"test\",\"password\":\"test\"}"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"token\":\"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJtaWNoYWVsQGdtYWlsLmNvbSIsImlhdCI6MTcxNzI0OTgyNCwiZXhwIjoxNzE3MjQ5ODg0fQ._pWXSZ-R9lPpLMWK4gB27XaJ-hI2zXBWyMtCvjktqWK9AEgneSOKYcnJwUjJE1QW\"}"
+      }
+    }
+  ]
+}

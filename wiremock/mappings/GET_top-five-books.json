@@ -1,0 +1,60 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/api/v1/books/trending",
+        "headers": {
+          "Authorization": {
+            "matches": "Bearer .+"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "books": [
+            {
+              "id": "1",
+              "title": "Het Gouden Ei",
+              "thumbnail": "https://www.leesadviezen.nl/content/boeken/1143_het-gouden-ei.jpg",
+              "author": "John Krabbe",
+              "publishedYear": "1984"
+            },
+            {
+              "id": "2",
+              "title": "1984",
+              "thumbnail": "https://m.media-amazon.com/images/I/61ZewDE3beL._AC_UF894,1000_QL80_.jpg",
+              "author": "George Orwell",
+              "publishedYear": "2000"
+            },
+            {
+              "id": "3",
+              "title": "De avonturen van Alice in Wonderland",
+              "thumbnail": "https://m.media-amazon.com/images/I/71O1It5N1VS._AC_UF894,1000_QL80_.jpg",
+              "author": "Steven King",
+              "publishedYear": "2005"
+            },
+            {
+              "id": "4",
+              "title": "Junglebook",
+              "thumbnail": "https://m.media-amazon.com/images/I/71SRA6-21BL._AC_UF1000,1000_QL80_.jpg",
+              "author": "Walt Disney",
+              "publishedYear": "2010"
+            },
+            {
+              "id": "5",
+              "title": "Een onsterfelijke legende",
+              "thumbnail": "https://api.bruna.nl/images/active/carrousel/fullsize/9789022562505_front.jpg",
+              "author": "Michael van der Bend",
+              "publishedYear": "2015"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

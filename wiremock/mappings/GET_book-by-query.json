@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1/books\\?searchQuery=.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "books": [
+        {
+          "id": "1",
+          "title": "Example Book Title",
+          "thumbnail": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/self-help-funny-book-cover-design-template-6f70a4532027fe3864ad1f4970e5c1c5_screen.jpg?ts=1698541225",
+          "author": "Author Name"
+        },
+        {
+          "id": "2",
+          "title": "Another Book Title",
+          "thumbnail": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/happy-egg-funny-book-cover-design-template-1fa8df39bdd00cbff29eb687b091da62_screen.jpg?ts=1637014773",
+          "author": "Another Author"
+        }
+      ]
+    }
+  }
+}

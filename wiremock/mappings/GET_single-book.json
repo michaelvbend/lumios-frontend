@@ -1,0 +1,33 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v1/books/1",
+        "headers": {
+          "Authorization": {
+            "matches": "Bearer .+"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "bookId": "1",
+          "title": "Het Gouden Ei ",
+          "thumbnail": "https://media.s-bol.com/J6Q0MLXyWXxg/525x840.jpg",
+          "author": "John Krabbe",
+          "rating": 4.5,
+          "description": "De vrijheid mag lonken, maar liefst niet de hele dag; wanneer de vrijheid uitsluitend tijdens de zomervakantie lonkt, is het leven al zwaar genoeg. \nJörgen Hofmeester is vader van twee dochters en werkzaam voor een gerenommeerd bedrijf. Dankzij een uitgekiend financieel beleid woont hij op stand: bandeloosheid leidt tot rampen. Stilstand is voor Hofmeester de voorwaarde voor liefde en geluk. Loom houdt hij van zijn dochters. Dat zijn echtgenote hem ingeruild heeft voor een jeugdliefde op een woonboot en dat een gedeelte van zijn vermogen is verdwenen door malversaties van merkwaardige groeperingen die de wereldeconomie beheersen, het deert hem niet. Zolang hij maar van zijn kinderen mag houden. Maar op een avond staat zijn echtgenote weer voor de deur. En dan doet een man zijn intrede in het leven van Jörgen Hofmeester, een man die als twee druppels water op Mohammed Atta lijkt.",
+          "pageCount": "200",
+          "genre": "Literataire Roman",
+          "publishedDate": "2019-11-21",
+          "language": "NL"
+        }
+      }
+    }
+  ]
+}
