@@ -1,19 +1,25 @@
 # Lumios
 
+![Scan book functionality](./assets/Book-scan.mp4)
+
 ## Overview
 
 This is a **React Native application** that allows users to:
 
+- Scan book ISBN
 - Swipe through books.
 - View detailed information about books.
 - Explore upcoming book-related events.
 
 The app is designed for a smooth and interactive user experience, leveraging modern libraries and tools.
 
+Link to Lumios Backend: [ADD_LINK_TO_THE_BACKEND]
+
 ---
 
 ## Features
 
+- **Scan Books**: Scan the ISBN book to fetch it from the database.
 - **Swipe Books**: Swipe left to dislike or right to like books.
 - **Book Details**: View detailed information about each book.
 - **Book Events**: Browse a list of upcoming book-related events.
