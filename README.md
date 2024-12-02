@@ -5,6 +5,7 @@
 <p align="center">
   <img src="./assets/book-scan.gif" alt="Scan book functionality" width="400"/>
 </p>
+
 ## Overview
 
 This is a **React Native application** that allows users to:
@@ -69,6 +70,12 @@ Link to Lumios Backend: [ADD_LINK_TO_THE_BACKEND]
 
    ```bash
    npm start
+   ```
+
+5. **Run the tests**:
+
+   ```bash
+   npm test
    ```
 
 ## Project status
