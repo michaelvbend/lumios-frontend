@@ -17,7 +17,7 @@ This is a **React Native application** that allows users to:
 
 The app is designed for a smooth and interactive user experience, leveraging modern libraries and tools.
 
-Link to Lumios Backend: [ADD_LINK_TO_THE_BACKEND]
+Link to Lumios Backend: https://github.com/michaelvbend/lumios-backend
 
 ---
 
